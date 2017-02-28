@@ -1,0 +1,17 @@
+{
+  "name": "iotjs-air-quality-sensor-profile",
+  "version": "0.0.1",
+  "description": "Air quality sensor Bluetooth profile.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanxd/iotjs-air-quality-sensor-profile"
+  },
+  "author": {
+    "name": "Evan Tseng",
+    "email": "evan@tseng.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evanxd/iotjs-air-quality-sensor-profile/issues"
+  }
+}

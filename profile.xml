@@ -1,0 +1,26 @@
+<Service BluetoothType="org.bluetooth.service.AirQuality" BluetoothUUID="0x000000">
+    <Characteristics>
+        <Include Name="PM2_5" Mandatory="true" BluetoothType="org.bluetooth.characteristic.PM2_5">
+            <Properties>
+                <Read>true</Read>
+                <Write>false</Write>
+                <Notify>false</Notify>
+                <Authenticated>false</Authenticated>
+            </Properties>
+            <Descriptors>
+                <UserDescription>The PM2.5 index in the room</UserDescription>
+                <Range>
+                    <Minimum>0</Minimum>
+                    <Maximum>200</Maximum>
+                </Range>
+                <PresentationFormat>
+                    <Format>
+                        <SInt8/>
+                    </Format>
+                    <Unit>μg/m3</Unit>
+                    <Description>The PM2.5 index in the room</Description>
+                </PresentationFormat>
+            </Descriptors>
+        </Include>
+    </Characteristics>
+</Service>

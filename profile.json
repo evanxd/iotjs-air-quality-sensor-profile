@@ -1,0 +1,33 @@
+{
+  "Service": {
+    "Characteristics": {
+      "Include": {
+        "Properties": {
+          "Read": "true",
+          "Write": "false",
+          "Notify": "false",
+          "Authenticated": "false"
+        },
+        "Descriptors": {
+          "UserDescription": "The PM2.5 index in the room",
+          "Range": {
+            "Minimum": "0",
+            "Maximum": "200"
+          },
+          "PresentationFormat": {
+            "Format": {
+              "SInt8": ""
+            },
+            "Unit": "μg/m3",
+            "Description": "The PM2.5 index in the room"
+          }
+        },
+        "_Name": "PM2_5",
+        "_Mandatory": "true",
+        "_BluetoothType": "org.bluetooth.characteristic.PM2_5"
+      }
+    },
+    "_BluetoothType": "org.bluetooth.service.AirQuality",
+    "_BluetoothUUID": "0x000000"
+  }
+}
