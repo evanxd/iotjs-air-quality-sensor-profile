@@ -22,7 +22,7 @@
             "Description": "The PM2.5 index in the room"
           }
         },
-        "_Name": "PM2_5",
+        "_Name": "PM2.5",
         "_Mandatory": "true",
         "_BluetoothType": "org.bluetooth.characteristic.PM2_5"
       }
